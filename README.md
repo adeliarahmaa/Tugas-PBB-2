@@ -16,6 +16,7 @@ MaterialApp merupakan root wignet pada aplikasi ini yang digunakan untuk mengatu
         ),
         home: const RowColumnPage(),
       );
+      
 ## 2. Scaffold
 Scaffold digunakan sebagai kerangka dasar pada halaman aplikasi yang menyediakan struktur layout, seperti : AppBar, Body, FloatingActionButton, dan komponen lainnya.
 
@@ -34,3 +35,28 @@ Scaffold digunakan sebagai kerangka dasar pada halaman aplikasi yang menyediakan
           ],
         ),
       );
+
+## 3. AppBar
+Appbar digunakan untuk membuat header pada bagian atas aplikasi biasanya berisi judul halaman.
+
+      AppBar(
+        title: const Text(
+          'My First App',
+          style: TextStyle(color: Colors.black),
+        ),
+        backgroundColor: Colors.orange[200],
+        centerTitle: true,
+      )
+
+## 4. Column
+Colum digunakan untuk menyusun wignet secara vertikal (dari atas ke bawah).
+
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          ...
+        ],
+      )
+
+
