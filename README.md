@@ -18,6 +18,7 @@ MaterialApp merupakan root wignet pada aplikasi ini yang digunakan untuk mengatu
       );
 ## 2. Scaffold
 Scaffold digunakan sebagai kerangka dasar pada halaman aplikasi yang menyediakan struktur layout, seperti : AppBar, Body, FloatingActionButton, dan komponen lainnya.
+
       Scaffold(
         appBar: AppBar(
           title: const Text(
