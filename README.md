@@ -59,4 +59,15 @@ Colum digunakan untuk menyusun wignet secara vertikal (dari atas ke bawah).
         ],
       )
 
+## 5. Row
+Row digunakan untuk menyusun wignet secara horizontal (dari kiri ke kanan)
 
+Row(
+  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+  crossAxisAlignment: CrossAxisAlignment.start,
+  children: <Widget>[
+    Column(children: [Icon(Icons.food_bank), Text("Food")]),
+    Column(children: [Icon(Icons.landscape), Text("Scenery")]),
+    Column(children: [Icon(Icons.people), Text("People")]),
+  ],
+)
